@@ -1,0 +1,15 @@
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase.csprojAssemblyReference.cache
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\Login.g.cs
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\App.g.cs
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase_MarkupCompile.cache
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase_MarkupCompile.lref
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\bin\Debug\CoronaUniversityDatabase.exe.config
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\bin\Debug\CoronaUniversityDatabase.exe
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\bin\Debug\CoronaUniversityDatabase.pdb
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\Login.baml
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase.g.resources
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase.Properties.Resources.resources
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase.csproj.GenerateResource.cache
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase.csproj.CoreCompileInputs.cache
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase.exe
+C:\Users\Han Diep\Desktop\Emily\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase.pdb
