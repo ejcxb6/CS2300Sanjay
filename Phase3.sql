@@ -1,0 +1,1 @@
+SELECT * FROM phase3.teacher;

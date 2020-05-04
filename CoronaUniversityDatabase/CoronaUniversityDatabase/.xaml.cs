@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.Sql;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace CoronaUniversityDatabase
 {
@@ -20,26 +23,34 @@ namespace CoronaUniversityDatabase
     /// </summary>
     public partial class MainWindow : Window
     {
+        SqlConnection sqlCon = new SqlConnection();
         public MainWindow()
         {
+            SqlConnection sqlCon = new SqlConnection(@"Data Source=Local instance MySql80; Initial Catalog=Phase3; Integrated Security=True;");
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void LoginBtn_Click(object sender, RoutedEventArgs e)
         {
-        //    if (HelloButton.IsChecked == true)
-        //    {
-        //        MessageBox.Show("Hello");
-        //    }
-        //    else if (goodbye_button.IsChecked == true)
-        //    {
-        //        MessageBox.Show("Goodbye.");
-        //    }
+            SqlConnection sqlCon = new SqlConnection(@"Data Source=Local instance MySql80; Initial Catalog=Phase3; Integrated Security=True;");
+            sqlCon.Open();
+            string nameUser = USER_TEXT.Text;
+            string idUser = PWD_TEXT.Text;
+            SqlCommand cmd = new SqlCommand("SELECT nameUser, idUser FROM User WHERE nameUser = '" + USER_TEXT.Text + "'and idUser = '" + PWD_TEXT.Text + "'", sqlCon);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            if (dt.Rows.Count > 0)
+            {
+                TeacherScreen teacherWindow = new TeacherScreen();
+                teacherWindow.Show();
+            }
+            else
+            {
+                MessageBox.Show("Invalid Login please check username and password");
+            }
+            sqlCon.Close();
         }
 
-        private void Goodbye_button_Checked(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
