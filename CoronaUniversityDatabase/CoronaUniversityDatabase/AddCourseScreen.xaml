@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="AddCourseWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid Name="dtGrid" ItemsSource= "{Binding}" HorizontalAlignment="Left" Height="337" Margin="10,29,0,0" VerticalAlignment="Top" Width="772"/>
-        <Button Content="Add" HorizontalAlignment="Left" Margin="707,389,0,0" VerticalAlignment="Top" Width="75"/>
+        <DataGrid Name="dtGrid" ItemsSource= "{Binding}" SelectedIndex="{Binding CourseIndex, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Window}}" HorizontalAlignment="Left" Height="337" Margin="10,29,0,0" VerticalAlignment="Top" Width="772"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="707,389,0,0" VerticalAlignment="Top" Width="75" Click="Add_Click"/>
     </Grid>
 </Window>

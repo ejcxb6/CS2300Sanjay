@@ -59,6 +59,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="addCourseObject.cs" />
     <Compile Include="AddCourseScreen.xaml.cs">
       <DependentUpon>AddCourseScreen.xaml</DependentUpon>
     </Compile>
