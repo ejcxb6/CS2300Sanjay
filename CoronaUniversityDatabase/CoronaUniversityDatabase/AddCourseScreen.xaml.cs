@@ -15,8 +15,7 @@ namespace CoronaUniversityDatabase
             string connectionString = "SERVER=localhost;DATABASE=Phase3; UID=root;PASSWORD=h1NN1hAA*26;";
             MySqlConnection connection = new MySqlConnection(connectionString);
             connection.Open();
-            MySqlCommand cmd = new MySqlCommand("select distinct course.courseID, course.Department, course.creditHours," +
-                " course.Name FROM student, takes, section, has, course where course.courseID" +
+            MySqlCommand cmd = new MySqlCommand("select distinct * FROM course where course.courseID" +
                 " not in (select course.courseID FROM student, takes, section, has, course" +
                 " where student.idstudent = 12510114 AND" +
                 " student.idstudent = takes.ID AND takes.SectionNumber = section.SectionNumber AND" +
