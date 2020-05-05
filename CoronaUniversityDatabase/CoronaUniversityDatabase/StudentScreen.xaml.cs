@@ -26,7 +26,8 @@ namespace CoronaUniversityDatabase
 
         private void Add_Course_Click(object sender, RoutedEventArgs e)
         {
-
+            AddCourseWindow addWindow = new AddCourseWindow();
+            addWindow.Show();
         }
     }
 }

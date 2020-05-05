@@ -1,1 +1,1 @@
-SELECT * FROM phase3.teacher;
+SELECT * FROM phase3.has;

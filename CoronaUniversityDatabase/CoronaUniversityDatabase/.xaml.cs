@@ -1,10 +1,7 @@
 ﻿using System.Windows;
 using System.Data;
 using System;
-using System.Data.SqlClient;
-using MySql.Data;
 using MySql.Data.MySqlClient;
-
 namespace CoronaUniversityDatabase
 {
     /// <summary>
@@ -26,6 +23,7 @@ namespace CoronaUniversityDatabase
             cmd.CommandType = CommandType.Text;
             cmd.Parameters.AddWithValue("@idTeacher", PWD_TEXT.Text);
             cmd.Parameters.AddWithValue("@nameUser", USER_TEXT.Text);
+            user.id = PWD_TEXT.Text;
             int count = Convert.ToInt32(cmd.ExecuteScalar());
             if (count == 1)
             {
@@ -42,6 +40,7 @@ namespace CoronaUniversityDatabase
                 int count2 = Convert.ToInt32(cmd2.ExecuteScalar());
                 if (count2 == 1)
                 {
+
                     StudentScreen studentWindow = new StudentScreen();
                     studentWindow.Show();
                     this.Close();

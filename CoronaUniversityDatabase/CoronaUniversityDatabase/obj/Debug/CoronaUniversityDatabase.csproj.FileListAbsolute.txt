@@ -39,3 +39,5 @@ C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversity
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\bin\Debug\Renci.SshNet.dll
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase.csproj.CopyComplete
+C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\AddCourseWindow.g.cs
+C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\AddCourseWindow.baml
