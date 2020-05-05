@@ -29,5 +29,23 @@ namespace CoronaUniversityDatabase
             AddCourseWindow addWindow = new AddCourseWindow();
             addWindow.Show();
         }
+
+        private void Drop_Course_Click(object sender, RoutedEventArgs e)
+        {
+            AddCourseWindow addWindow = new AddCourseWindow();
+            addWindow.Show();
+        }
+
+        private void Grades_Click(object sender, RoutedEventArgs e)
+        {
+            ScheduleScreen scheduleScreen = new ScheduleScreen();
+            scheduleScreen.Show();
+        }
+
+        private void Schedule_Click(object sender, RoutedEventArgs e)
+        {
+            ScheduleScreen scheduleScreen = new ScheduleScreen();
+            scheduleScreen.Show();
+        }
     }
 }

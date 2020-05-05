@@ -59,20 +59,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AddCourseWindow.xaml.cs">
-      <DependentUpon>AddCourseWindow.xaml</DependentUpon>
+    <Compile Include="AddCourseScreen.xaml.cs">
+      <DependentUpon>AddCourseScreen.xaml</DependentUpon>
     </Compile>
     <Compile Include="user.cs" />
     <Compile Include="StudentScreen.xaml.cs">
       <DependentUpon>StudentScreen.xaml</DependentUpon>
     </Compile>
-    <Compile Include="test.xaml.cs">
-      <DependentUpon>test.xaml</DependentUpon>
-    </Compile>
     <Compile Include="TeacherScreen.xaml.cs">
       <DependentUpon>TeacherScreen.xaml</DependentUpon>
     </Compile>
-    <Page Include="AddCourseWindow.xaml">
+    <Compile Include="ScheduleScreen.xaml.cs">
+      <DependentUpon>ScheduleScreen.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AddCourseScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -92,11 +92,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="test.xaml">
+    <Page Include="TeacherScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TeacherScreen.xaml">
+    <Page Include="ScheduleScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

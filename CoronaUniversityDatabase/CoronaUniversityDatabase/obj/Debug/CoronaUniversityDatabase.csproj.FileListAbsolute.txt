@@ -18,12 +18,10 @@ C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversity
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\bin\Debug\CoronaUniversityDatabase.pdb
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase.csprojAssemblyReference.cache
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\Login.g.cs
-C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\test.g.cs
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\App.g.cs
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase_MarkupCompile.cache
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase_MarkupCompile.lref
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\Login.baml
-C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\test.baml
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase.g.resources
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase.Properties.Resources.resources
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase.csproj.GenerateResource.cache
@@ -39,5 +37,7 @@ C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversity
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\bin\Debug\Renci.SshNet.dll
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\CoronaUniversityDatabase.csproj.CopyComplete
-C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\AddCourseWindow.g.cs
-C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\AddCourseWindow.baml
+C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\AddCourseScreen.g.cs
+C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\ScheduleScreen.g.cs
+C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\AddCourseScreen.baml
+C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\ScheduleScreen.baml

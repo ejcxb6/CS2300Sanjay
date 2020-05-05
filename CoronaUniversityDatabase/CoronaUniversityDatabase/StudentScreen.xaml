@@ -13,9 +13,9 @@
                     <ImageBrush/>
                 </Run.Background>
             </Run></TextBlock>
-        <Button x:Name="Add_Course_Copy" Content="DROP COURSE" HorizontalAlignment="Left" Margin="78,160,0,0" VerticalAlignment="Top" Width="108" Height="44" Click="Add_Course_Click" RenderTransformOrigin="0.5,0.5" Background="#FF1E7DCD" Foreground="#FF130101" FontFamily="Gill Sans Ultra Bold" BorderBrush="#FF130101" OpacityMask="#FF130101"/>
-        <Button x:Name="Add_Course_Copy1" Content="GRADES" HorizontalAlignment="Left" Margin="78,232,0,0" VerticalAlignment="Top" Width="108" Height="44" Click="Add_Course_Click" RenderTransformOrigin="0.586,-0.156" Background="#FF1E7DCD" Foreground="#FF130101" FontFamily="Gill Sans Ultra Bold" BorderBrush="#FF130101" OpacityMask="#FF130101"/>
-        <Button x:Name="Add_Course_Copy2" Content="SCHEDULE" HorizontalAlignment="Left" Margin="78,319,0,0" VerticalAlignment="Top" Width="108" Height="44" Click="Add_Course_Click" RenderTransformOrigin="0.5,0.5" Background="#FF1E7DCD" Foreground="#FF130101" FontFamily="Gill Sans Ultra Bold" BorderBrush="#FF130101" OpacityMask="#FF130101"/>
+        <Button x:Name="Drop_Course" Content="DROP COURSE" HorizontalAlignment="Left" Margin="78,160,0,0" VerticalAlignment="Top" Width="108" Height="44" Click="Drop_Course_Click" RenderTransformOrigin="0.5,0.5" Background="#FF1E7DCD" Foreground="#FF130101" FontFamily="Gill Sans Ultra Bold" BorderBrush="#FF130101" OpacityMask="#FF130101"/>
+        <Button x:Name="Grades" Content="GRADES" HorizontalAlignment="Left" Margin="78,232,0,0" VerticalAlignment="Top" Width="108" Height="44" Click="Grades_Click" RenderTransformOrigin="0.586,-0.156" Background="#FF1E7DCD" Foreground="#FF130101" FontFamily="Gill Sans Ultra Bold" BorderBrush="#FF130101" OpacityMask="#FF130101"/>
+        <Button x:Name="Schedule" Content="SCHEDULE" HorizontalAlignment="Left" Margin="78,319,0,0" VerticalAlignment="Top" Width="108" Height="44" Click="Schedule_Click" RenderTransformOrigin="0.5,0.5" Background="#FF1E7DCD" Foreground="#FF130101" FontFamily="Gill Sans Ultra Bold" BorderBrush="#FF130101" OpacityMask="#FF130101"/>
 
     </Grid>
 </Window>
