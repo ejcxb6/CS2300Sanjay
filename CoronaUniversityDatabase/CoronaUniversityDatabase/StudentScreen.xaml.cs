@@ -38,8 +38,8 @@ namespace CoronaUniversityDatabase
 
         private void Grades_Click(object sender, RoutedEventArgs e)
         {
-            ScheduleScreen scheduleScreen = new ScheduleScreen();
-            scheduleScreen.Show();
+            GradesScreen gradesScreen = new GradesScreen();
+            gradesScreen.Show();
         }
 
         private void Schedule_Click(object sender, RoutedEventArgs e)

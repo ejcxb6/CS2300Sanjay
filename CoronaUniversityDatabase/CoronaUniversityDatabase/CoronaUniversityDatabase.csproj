@@ -72,6 +72,9 @@
     <Compile Include="ScheduleScreen.xaml.cs">
       <DependentUpon>ScheduleScreen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GradesScreen.xaml.cs">
+      <DependentUpon>GradesScreen.xaml</DependentUpon>
+    </Compile>
     <Page Include="AddCourseScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -97,6 +100,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ScheduleScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GradesScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
