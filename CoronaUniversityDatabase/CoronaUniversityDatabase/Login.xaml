@@ -10,12 +10,12 @@
         <TextBlock HorizontalAlignment="Left" Margin="282,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="113" Width="225" RenderTransformOrigin="0.85,1.454" FontFamily="Gill Sans Ultra Bold" FontSize="24" TextAlignment="Center" Foreground="#FF1679F0"><Run Text="                                                                                                                  Zoom University"/><LineBreak/></TextBlock>
         <Label Content="Username:" HorizontalAlignment="Left" Margin="247,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.053,1" FontWeight="Bold"/>
         <Label Content="Password:" HorizontalAlignment="Left" Margin="247,190,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.553,0.654" FontWeight="Bold"/>
-        <TextBox x:Name="USER_TEXT" HorizontalAlignment="Left" Margin="332,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175">
+        <TextBox x:Name="USER_TEXT" Text="hannah" HorizontalAlignment="Left" Margin="332,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175">
             <TextBox.Background>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}"/>
             </TextBox.Background>
         </TextBox>
-        <TextBox x:Name="PWD_TEXT" HorizontalAlignment="Left" Margin="332,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175">
+        <TextBox x:Name="PWD_TEXT" Text="87654321"  HorizontalAlignment="Left" Margin="332,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175">
             <TextBox.Background>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}"/>
             </TextBox.Background>

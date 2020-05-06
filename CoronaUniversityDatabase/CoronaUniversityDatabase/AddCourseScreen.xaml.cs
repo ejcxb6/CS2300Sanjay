@@ -41,9 +41,11 @@ namespace CoronaUniversityDatabase
             string connectionString = "SERVER=localhost;DATABASE=Phase3; UID=root;PASSWORD=h1NN1hAA*26;";
             MySqlConnection connection = new MySqlConnection(connectionString);
             connection.Open();
-            MySqlCommand cmd = new MySqlCommand("select distinct * FROM course where course.courseID" +
-                " not in (select course.courseID FROM student, takes, section, has, course" +
-                " where student.idstudent = 12510114 AND" +
+            MySqlCommand cmd = new MySqlCommand("select course.courseID, course.Department, course.creditHours," +
+                " course.Name, section.SectionNumber, section.ClassSize, section.Date, section.Time FROM" +
+                " course,has,section where course.courseID = has.CourseID AND has.SectionNumber= section.SectionNumber" +
+                " AND course.courseID not in (select course.courseID FROM student, takes, section, has, course" +
+                " where student.idstudent = @studentID AND " +
                 " student.idstudent = takes.ID AND takes.SectionNumber = section.SectionNumber AND" +
                 " section.SectionNumber = has.SectionNumber AND course.courseID = has.CourseID)", connection);
             cmd.Parameters.AddWithValue("@studentID", user.id);
@@ -54,8 +56,16 @@ namespace CoronaUniversityDatabase
 
         private void Add_Click(object sender, RoutedEventArgs e)
         {
-
-            MessageBox.Show(dt.Rows[CourseIndex][0].ToString());
+            InitializeComponent();
+            string connectionString = "SERVER=localhost;DATABASE=Phase3; UID=root;PASSWORD=h1NN1hAA*26;";
+            MySqlConnection connection = new MySqlConnection(connectionString);
+            connection.Open();
+            MySqlCommand cmd = new MySqlCommand("INSERT INTO Takes(SectionNumber, ID, grade) Values(@SectionNumber, @studentID,'NA')", connection);
+            cmd.Parameters.AddWithValue("@SectionNumber", dt.Rows[CourseIndex][4].ToString());
+            cmd.Parameters.AddWithValue("@studentID", user.id);
+            cmd.ExecuteReader();
+            MessageBox.Show(dt.Rows[CourseIndex][0].ToString() + " has been added to your schedule!");
+            connection.Close();
         }
     }
 }
