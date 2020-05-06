@@ -32,8 +32,8 @@ namespace CoronaUniversityDatabase
 
         private void Drop_Course_Click(object sender, RoutedEventArgs e)
         {
-            AddCourseWindow addWindow = new AddCourseWindow();
-            addWindow.Show();
+            DropCourseScreen dropWindow = new DropCourseScreen();
+            dropWindow.Show();
         }
 
         private void Grades_Click(object sender, RoutedEventArgs e)
