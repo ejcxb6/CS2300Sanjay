@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\App.xaml
-8595766876
+91790232722
 
-18-146244876
+191048793744
 141150719483
-AddCourseScreen.xaml;Login.xaml;StudentScreen.xaml;TeacherScreen.xaml;ScheduleScreen.xaml;GradesScreen.xaml;DropCourseScreen.xaml;TeacherScheduleScreen.xaml;
+AddCourseScreen.xaml;Login.xaml;StudentScreen.xaml;TeacherScreen.xaml;ScheduleScreen.xaml;GradesScreen.xaml;DropCourseScreen.xaml;TeacherScheduleScreen.xaml;TeacherGrade.xaml;
 
 True
 

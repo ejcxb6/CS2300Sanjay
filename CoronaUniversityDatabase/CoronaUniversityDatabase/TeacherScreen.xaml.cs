@@ -30,5 +30,11 @@ namespace CoronaUniversityDatabase
             TeacherScheduleScreen TscheduleScreen = new TeacherScheduleScreen();
             TscheduleScreen.Show();
         }
+
+        private void TeacherGrade_Click(object sender, RoutedEventArgs e)
+        {
+            TeacherGrade GradeScreen = new TeacherGrade();
+            GradeScreen.Show();
+        }
     }
 }
