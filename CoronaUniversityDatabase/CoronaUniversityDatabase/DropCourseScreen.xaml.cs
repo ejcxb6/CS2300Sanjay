@@ -57,9 +57,15 @@ namespace CoronaUniversityDatabase
             MySqlConnection connection = new MySqlConnection(connectionString);
             connection.Open();
             MySqlCommand cmd = new MySqlCommand(" DELETE FROM Takes WHERE SectionNumber=@SectionNumber AND ID=@studentID", connection);
+            MySqlCommand cmd2 = new MySqlCommand("UPDATE section SET section.ClassSize = section.ClassSize - 1" +
+           " WHERE section.SectionNumber = @SectionNumber2", connection);
             cmd.Parameters.AddWithValue("@SectionNumber", dt.Rows[CourseIndex][4].ToString());
             cmd.Parameters.AddWithValue("@studentID", user.id);
+            cmd2.Parameters.AddWithValue("@SectionNumber2", dt.Rows[CourseIndex][4].ToString());
             cmd.ExecuteReader();
+            connection.Close();
+            connection.Open();
+            cmd2.ExecuteReader();
             MessageBox.Show(dt.Rows[CourseIndex][0].ToString() + " has been dropped from your schedule!");
             connection.Close();
         }
