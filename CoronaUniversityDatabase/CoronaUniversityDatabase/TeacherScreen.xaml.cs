@@ -15,13 +15,20 @@ using System.Windows.Shapes;
 namespace CoronaUniversityDatabase
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for TeacherScreen.xaml
     /// </summary>
     public partial class TeacherScreen : Window
     {
         public TeacherScreen()
         {
             InitializeComponent();
+
+        }
+
+        private void TeacherSchedule_Click(object sender, RoutedEventArgs e)
+        {
+            TeacherScheduleScreen TscheduleScreen = new TeacherScheduleScreen();
+            TscheduleScreen.Show();
         }
     }
 }

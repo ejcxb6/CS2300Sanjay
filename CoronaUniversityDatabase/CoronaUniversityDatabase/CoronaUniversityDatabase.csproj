@@ -79,6 +79,9 @@
     <Compile Include="DropCourseScreen.xaml.cs">
       <DependentUpon>DropCourseScreen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TeacherScheduleScreen.xaml.cs">
+      <DependentUpon>TeacherScheduleScreen.xaml</DependentUpon>
+    </Compile>
     <Page Include="AddCourseScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -112,6 +115,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DropCourseScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TeacherScheduleScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

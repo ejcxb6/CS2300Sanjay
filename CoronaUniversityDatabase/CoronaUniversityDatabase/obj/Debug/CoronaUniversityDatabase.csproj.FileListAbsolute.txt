@@ -45,3 +45,5 @@ C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversity
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\GradesScreen.baml
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\DropCourseScreen.g.cs
 C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\DropCourseScreen.baml
+C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\TeacherScheduleScreen.g.cs
+C:\Users\Han Diep\Desktop\CS2300Sanjay\CoronaUniversityDatabase\CoronaUniversityDatabase\obj\Debug\TeacherScheduleScreen.baml

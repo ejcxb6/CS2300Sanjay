@@ -12,8 +12,8 @@
                     <ImageBrush/>
                 </Run.Background>
             </Run></TextBlock>
-        <Button x:Name="Add_Course_Copy1" Content="GRADES" HorizontalAlignment="Left" Margin="78,124,0,0" VerticalAlignment="Top" Width="108" Height="44" RenderTransformOrigin="0.586,-0.156" Background="#FF1E7DCD" Foreground="#FF130101" FontFamily="Gill Sans Ultra Bold" BorderBrush="#FF130101" OpacityMask="#FF130101"/>
-        <Button x:Name="Add_Course_Copy2" Content="SCHEDULE" HorizontalAlignment="Left" Margin="78,248,0,0" VerticalAlignment="Top" Width="108" Height="44" RenderTransformOrigin="0.504,-0.476" Background="#FF1E7DCD" Foreground="#FF130101" FontFamily="Gill Sans Ultra Bold" BorderBrush="#FF130101" OpacityMask="#FF130101"/>
+        <Button x:Name="TeacherGrade" Content="GRADES" HorizontalAlignment="Left" Margin="78,124,0,0" VerticalAlignment="Top" Width="108" Height="44" RenderTransformOrigin="0.586,-0.156" Background="#FF1E7DCD" Foreground="#FF130101" FontFamily="Gill Sans Ultra Bold" BorderBrush="#FF130101" OpacityMask="#FF130101"/>
+        <Button x:Name="TeacherSchedule" Content="SCHEDULE" HorizontalAlignment="Left" Margin="78,248,0,0" VerticalAlignment="Top" Width="108" Height="44" RenderTransformOrigin="0.504,-0.476" Background="#FF1E7DCD" Foreground="#FF130101" FontFamily="Gill Sans Ultra Bold" BorderBrush="#FF130101" OpacityMask="#FF130101" Click="TeacherSchedule_Click"/>
 
     </Grid>
 </Window>
